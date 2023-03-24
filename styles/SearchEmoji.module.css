@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+  margin: auto;
+}
+
+.form {
+  position: fixed;
+  top: 0;
+  padding: 2rem;
+}
+
+.form input {
+  width: 1024px;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+
+.results {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+}
+
+.result {
+  max-width: 10rem;
+}
+
+.emoji {
+  font-size: 5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.loading {
+  font-size: 2rem;
+}
